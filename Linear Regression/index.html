@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linear regression with Tensorflow.js</title>
+  <script src="tf.min.js"></script>
+  <style>
+    html,
+    body {
+      padding: 0px;
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+    #container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #canvas {
+      border: 1px solid #e7e7e7;
+      background: rgb(51, 51, 51);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <canvas id="canvas" height="400" width="400">
+
+    </canvas>
+  </div>
+
+  <script src="utils.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
